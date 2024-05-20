@@ -258,7 +258,7 @@ if __name__ == "__main__":
     parser.add_argument(
         '--n_bars',
         type=int,
-        default=2,
+        default=16,
         help="Number of bars for each sequence of the resulting preprocessed "
             "dataset. Defaults to 2 bars."
     )
