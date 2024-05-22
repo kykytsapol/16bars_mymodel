@@ -274,5 +274,6 @@ class PolyphemusDataset(Dataset):
 
         graph.c_tensor = c_tensor
         graph.s_tensor = s_tensor.float()
+        print(graph)
 
         return graph
